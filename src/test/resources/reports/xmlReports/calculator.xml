@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="jeuneAfrique" name="JeuneAfrique startPage" time="0">
+<skipped><![CDATA[Given I am on the startpage.................................................undefined
+When I click Menu Item Politque.............................................undefined
+Then Politique page is loaded...............................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

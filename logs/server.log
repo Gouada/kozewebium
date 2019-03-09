@@ -1,0 +1,195 @@
+2018-12-14 00:26:06 INFO  MyLogger:73 - I reached here
+2018-12-14 00:26:53 INFO  MyLogger:73 - I reached here
+2018-12-14 00:27:25 INFO  MyLogger:73 - I reached here
+2018-12-14 00:29:12 INFO  MyLogger:73 - I reached here
+2018-12-14 00:31:30 INFO  MyLogger:32 - driver was not null
+2018-12-14 00:31:30 INFO  MyLogger:73 - I reached here
+2018-12-14 00:32:59 INFO  MyLogger:73 - I reached here
+2018-12-14 00:35:04 INFO  MyLogger:32 - driver.manage().window().getSize().getHeight()840
+2018-12-14 00:35:04 INFO  MyLogger:73 - I reached here
+2018-12-14 00:38:47 INFO  MyLogger:32 - WindowHeight840
+2018-12-14 00:38:47 INFO  MyLogger:73 - I reached here
+2018-12-14 00:40:50 INFO  MyLogger:32 - WindowHeight840
+2018-12-14 00:40:50 INFO  MyLogger:73 - I reached here
+2018-12-14 00:41:31 INFO  MyLogger:32 - WindowHeight840
+2018-12-14 00:41:31 INFO  MyLogger:73 - I reached here
+2018-12-14 00:53:53 INFO  MyLogger:31 - WindowHeight840
+2018-12-14 00:53:53 INFO  MyLogger:73 - I reached here
+2018-12-14 00:56:18 INFO  MyLogger:31 - WindowHeight840
+2018-12-14 00:56:18 INFO  MyLogger:73 - I reached here
+2018-12-14 00:57:22 INFO  MyLogger:31 - WindowHeight840
+2018-12-14 00:57:22 INFO  MyLogger:73 - I reached here
+2018-12-14 01:02:37 INFO  MyLogger:31 - WindowHeight840
+2018-12-14 01:02:37 INFO  MyLogger:74 - I reached here
+2018-12-14 01:06:36 INFO  MyLogger:31 - WindowHeight840
+2018-12-14 01:06:36 INFO  MyLogger:74 - I reached here
+2018-12-14 01:16:18 INFO  MyLogger:32 - WindowHeight838
+2018-12-14 01:18:39 INFO  MyLogger:32 - WindowHeight838
+2018-12-14 01:18:40 INFO  MyLogger:74 - I reached here
+2018-12-14 01:19:52 INFO  MyLogger:32 - WindowHeight838
+2018-12-14 01:24:34 INFO  MyLogger:32 - WindowHeight838
+2018-12-14 01:24:35 INFO  MyLogger:74 - I reached here
+2018-12-14 01:25:12 INFO  MyLogger:32 - WindowHeight838
+2018-12-14 01:25:12 INFO  MyLogger:74 - I reached here
+2018-12-14 01:26:58 INFO  MyLogger:32 - WindowHeight838
+2018-12-14 01:26:58 INFO  MyLogger:74 - I reached here
+2018-12-14 01:29:42 INFO  MyLogger:32 - WindowHeight838
+2018-12-14 01:29:47 INFO  MyLogger:74 - I reached here
+2018-12-14 01:30:38 INFO  MyLogger:32 - WindowHeight838
+2018-12-14 01:30:46 INFO  MyLogger:74 - I reached here
+2018-12-14 01:40:05 INFO  MyLogger:33 - WindowHeight838
+2018-12-14 01:41:30 INFO  MyLogger:33 - WindowHeight838
+2018-12-14 01:43:04 INFO  MyLogger:33 - WindowHeight838
+2018-12-15 15:09:45 INFO  MyLogger:75 - I reached here
+2018-12-15 15:14:47 INFO  MyLogger:75 - I reached here
+2018-12-15 15:17:58 INFO  MyLogger:75 - I reached here
+2018-12-15 15:19:04 INFO  MyLogger:75 - I reached here
+2018-12-15 15:20:11 INFO  MyLogger:75 - I reached here
+2018-12-15 15:26:20 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_5_2-10_12_13.jpg
+2018-12-15 15:26:20 INFO  MyLogger:76 - I reached here
+2018-12-15 15:26:57 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_5_2-10_12_13.jpg
+2018-12-15 15:26:57 INFO  MyLogger:76 - I reached here
+2018-12-15 15:32:30 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_5_2-10_12_13.jpg
+2018-12-15 15:32:30 INFO  MyLogger:76 - I reached here
+2018-12-15 15:39:04 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_5_2-10_12_13.jpg
+2018-12-15 15:39:04 INFO  MyLogger:76 - I reached here
+2018-12-15 15:42:30 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544884942367jpg
+2018-12-15 15:42:30 INFO  MyLogger:76 - I reached here
+2018-12-15 15:44:13 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544885047039.jpg
+2018-12-15 15:44:14 INFO  MyLogger:76 - I reached here
+2018-12-15 15:47:31 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544885244735.jpg
+2018-12-15 15:49:44 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544885376622.jpg
+2018-12-15 15:52:31 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544885530121.jpg
+2018-12-15 15:53:08 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544885581776.jpg
+2018-12-15 15:54:04 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544885638674.jpg
+2018-12-15 15:54:45 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544885678291.jpg
+2018-12-15 16:00:54 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886047970.jpg
+2018-12-15 16:02:26 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886140144.jpg
+2018-12-15 16:02:27 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886140144.jpg
+2018-12-15 16:05:14 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886303189.jpg
+2018-12-15 16:05:15 INFO  MyLogger:90 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886303189.jpg
+2018-12-15 16:08:33 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886506992.jpg
+2018-12-15 16:08:34 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886506992.jpg
+2018-12-15 16:09:57 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886586702.jpg
+2018-12-15 16:09:58 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886586702.jpg
+2018-12-15 16:12:19 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886729400.jpg
+2018-12-15 16:12:20 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886729400.jpg
+2018-12-15 16:13:43 INFO  MyLogger:94 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886814634.jpg
+2018-12-15 16:13:44 INFO  MyLogger:64 - 0
+2018-12-15 16:13:44 INFO  MyLogger:64 - 1
+2018-12-15 16:13:44 INFO  MyLogger:64 - 2
+2018-12-15 16:13:44 INFO  MyLogger:64 - 3
+2018-12-15 16:13:44 INFO  MyLogger:64 - 4
+2018-12-15 16:13:44 INFO  MyLogger:64 - 5
+2018-12-15 16:13:44 INFO  MyLogger:64 - 6
+2018-12-15 16:13:44 INFO  MyLogger:64 - 7
+2018-12-15 16:13:44 INFO  MyLogger:64 - 8
+2018-12-15 16:13:44 INFO  MyLogger:64 - 9
+2018-12-15 16:13:44 INFO  MyLogger:64 - 10
+2018-12-15 16:13:44 INFO  MyLogger:64 - 11
+2018-12-15 16:13:44 INFO  MyLogger:64 - 12
+2018-12-15 16:13:44 INFO  MyLogger:64 - 13
+2018-12-15 16:13:44 INFO  MyLogger:64 - 14
+2018-12-15 16:13:44 INFO  MyLogger:94 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886814634.jpg
+2018-12-15 16:15:24 INFO  MyLogger:94 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886917463.jpg
+2018-12-15 16:15:24 INFO  MyLogger:64 - 0
+2018-12-15 16:15:24 INFO  MyLogger:64 - 1
+2018-12-15 16:15:24 INFO  MyLogger:64 - 2
+2018-12-15 16:15:24 INFO  MyLogger:64 - 3
+2018-12-15 16:15:24 INFO  MyLogger:64 - 4
+2018-12-15 16:15:24 INFO  MyLogger:64 - 5
+2018-12-15 16:15:24 INFO  MyLogger:64 - 6
+2018-12-15 16:15:24 INFO  MyLogger:64 - 7
+2018-12-15 16:15:24 INFO  MyLogger:64 - 8
+2018-12-15 16:15:24 INFO  MyLogger:64 - 9
+2018-12-15 16:15:24 INFO  MyLogger:64 - 10
+2018-12-15 16:15:24 INFO  MyLogger:64 - 11
+2018-12-15 16:15:24 INFO  MyLogger:64 - 12
+2018-12-15 16:15:24 INFO  MyLogger:64 - 13
+2018-12-15 16:15:24 INFO  MyLogger:64 - 14
+2018-12-15 16:15:24 INFO  MyLogger:94 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886917463.jpg
+2018-12-15 16:16:23 INFO  MyLogger:94 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886974221.jpg
+2018-12-15 16:16:23 INFO  MyLogger:64 - 0
+2018-12-15 16:16:23 INFO  MyLogger:64 - 1
+2018-12-15 16:16:23 INFO  MyLogger:64 - 2
+2018-12-15 16:16:23 INFO  MyLogger:64 - 3
+2018-12-15 16:16:23 INFO  MyLogger:64 - 4
+2018-12-15 16:16:23 INFO  MyLogger:64 - 5
+2018-12-15 16:16:23 INFO  MyLogger:64 - 6
+2018-12-15 16:16:23 INFO  MyLogger:64 - 7
+2018-12-15 16:16:23 INFO  MyLogger:64 - 8
+2018-12-15 16:16:23 INFO  MyLogger:64 - 9
+2018-12-15 16:16:24 INFO  MyLogger:64 - 10
+2018-12-15 16:16:24 INFO  MyLogger:64 - 11
+2018-12-15 16:16:24 INFO  MyLogger:64 - 12
+2018-12-15 16:16:24 INFO  MyLogger:64 - 13
+2018-12-15 16:16:24 INFO  MyLogger:64 - 14
+2018-12-15 16:16:24 INFO  MyLogger:94 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544886974221.jpg
+2018-12-15 16:17:24 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544887038686.jpg
+2018-12-15 16:17:24 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1544887038686.jpg
+2019-03-03 13:53:47 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551617617411.jpg
+2019-03-03 13:53:48 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551617617411.jpg
+2019-03-03 14:01:07 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551618061303.jpg
+2019-03-03 14:01:07 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551618061303.jpg
+2019-03-03 15:55:49 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551624941450.jpg
+2019-03-03 15:55:49 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551624941450.jpg
+2019-03-04 12:17:23 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551698231585.jpg
+2019-03-04 12:17:23 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551698231585.jpg
+2019-03-04 12:20:17 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551698407615.jpg
+2019-03-04 12:20:17 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551698407615.jpg
+2019-03-04 12:34:18 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551699249905.jpg
+2019-03-04 12:34:19 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551699249905.jpg
+2019-03-04 12:38:47 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551699518052.jpg
+2019-03-04 12:38:47 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551699518052.jpg
+2019-03-04 12:56:05 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551700558783.jpg
+2019-03-04 12:56:05 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551700558783.jpg
+2019-03-04 13:21:20 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551702073306.jpg
+2019-03-04 13:21:20 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551702073306.jpg
+2019-03-04 13:25:38 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551702329157.jpg
+2019-03-04 13:25:38 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551702329157.jpg
+2019-03-04 13:27:15 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551702426699.jpg
+2019-03-04 13:27:15 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551702426699.jpg
+2019-03-04 13:34:26 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551702857790.jpg
+2019-03-04 13:34:26 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551702857790.jpg
+2019-03-04 13:43:40 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551703413086.jpg
+2019-03-04 13:43:40 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551703413086.jpg
+2019-03-04 14:02:51 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551704565037.jpg
+2019-03-04 14:02:52 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551704565037.jpg
+2019-03-04 14:06:09 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551704760781.jpg
+2019-03-04 14:06:10 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551704760781.jpg
+2019-03-04 14:07:54 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551704867779.jpg
+2019-03-04 14:07:55 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551704867779.jpg
+2019-03-04 14:10:57 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551705046258.jpg
+2019-03-04 14:10:57 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551705046258.jpg
+2019-03-04 14:13:35 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551705206317.jpg
+2019-03-04 14:13:36 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551705206317.jpg
+2019-03-04 14:14:52 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551705285593.jpg
+2019-03-04 14:14:52 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551705285593.jpg
+2019-03-04 14:18:35 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551705507682.jpg
+2019-03-04 14:18:35 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551705507682.jpg
+2019-03-04 14:29:00 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551706131167.jpg
+2019-03-04 14:29:01 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551706131167.jpg
+2019-03-04 14:44:59 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551707091883.jpg
+2019-03-04 14:45:00 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551707091883.jpg
+2019-03-04 14:59:04 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551707936716.jpg
+2019-03-04 14:59:04 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551707936716.jpg
+2019-03-04 15:02:14 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551708126074.jpg
+2019-03-04 15:02:15 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551708126074.jpg
+2019-03-04 15:20:42 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551709231638.jpg
+2019-03-04 15:26:22 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551709575143.jpg
+2019-03-04 15:29:03 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551709733827.jpg
+2019-03-04 15:30:24 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551709816728.jpg
+2019-03-04 15:32:07 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551709919268.jpg
+2019-03-04 15:36:23 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551710174066.jpg
+2019-03-04 15:42:54 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551710563149.jpg
+2019-03-04 15:47:55 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551710859693.jpg
+2019-03-04 15:50:30 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551711023242.jpg
+2019-03-04 15:52:25 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551711137943.jpg
+2019-03-04 15:56:39 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551711382110.jpg
+2019-03-04 15:58:56 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551711526192.jpg
+2019-03-04 16:04:54 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551711878246.jpg
+2019-03-04 16:06:25 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551711978021.jpg
+2019-03-04 16:08:03 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551712076351.jpg
+2019-03-04 16:13:47 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551712419497.jpg
+2019-03-04 16:20:17 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551712799462.jpg
+2019-03-04 16:24:30 INFO  MyLogger:91 - this is the filenameERROR_SCREENSHOT_i_scroll_down_to_bottom_1551713061260.jpg
