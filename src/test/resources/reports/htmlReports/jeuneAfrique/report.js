@@ -13,11 +13,11 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5022240705,
+  "duration": 12156434100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 7144013043,
+  "duration": 9569413200,
   "status": "passed"
 });
 formatter.scenario({
@@ -63,36 +63,38 @@ formatter.match({
   "location": "JeuneAfriqueStartPageSteps.i_am_on_the_startpage()"
 });
 formatter.result({
-  "duration": 4882491482,
-  "status": "passed"
+  "duration": 126025500,
+  "error_message": "java.lang.NullPointerException\r\n\tat testSteps.jeuneAfriqueTestSteps.JeuneAfriqueStartPageSteps.i_am_on_the_startpage(JeuneAfriqueStartPageSteps.java:52)\r\n\tat ✽.Given I am on the startpage(jeuneAfrique.feature:6)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "JeuneAfriqueStartPageSteps.i_click_menu_item_politique()"
 });
 formatter.result({
-  "duration": 1314799128,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "JeuneAfriqueStartPageSteps.i_click_Sport()"
 });
 formatter.result({
-  "duration": 1429086598,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "JeuneAfriqueStartPageSteps.i_click_economie()"
 });
 formatter.result({
-  "duration": 1587372491,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "JeuneAfriqueStartPageSteps.i_scroll_down_to_bottom()"
 });
 formatter.result({
-  "duration": 449358379,
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.after({
+  "duration": 689000,
+  "error_message": "java.lang.NullPointerException\r\n\tat testSteps.jeuneAfriqueTestSteps.JeuneAfriqueStartPageSteps.finish(JeuneAfriqueStartPageSteps.java:90)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+  "status": "failed"
 });
 formatter.uri("readCountryNews.feature");
 formatter.feature({
@@ -109,11 +111,11 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 7625704213,
+  "duration": 9634335900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 7216829094,
+  "duration": 9664312200,
   "status": "passed"
 });
 formatter.scenario({
@@ -142,50 +144,54 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I select a country",
+  "name": "I select a from most visited countries",
   "keyword": "Then "
 });
 formatter.step({
   "line": 9,
-  "name": "I select an article",
+  "name": "I click country main article",
   "keyword": "Then "
 });
 formatter.step({
   "line": 10,
-  "name": "I select a topic",
+  "name": "I go back to country page",
   "keyword": "Then "
 });
 formatter.match({
   "location": "ReadCountryArticleSteps.i_start_jeuneAfrique()"
 });
 formatter.result({
-  "duration": 4239168217,
-  "status": "passed"
+  "duration": 4388430400,
+  "error_message": "java.lang.NullPointerException\r\n\tat testSteps.jeuneAfriqueTestSteps.ReadCountryArticleSteps.i_start_jeuneAfrique(ReadCountryArticleSteps.java:43)\r\n\tat ✽.Given I start jeuneAfrique(readCountryNews.feature:6)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "ReadCountryArticleSteps.i_click_les_pays()"
 });
 formatter.result({
-  "duration": 639929276,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "location": "ReadCountryArticleSteps.i_select_a_country()"
+  "location": "ReadCountryArticleSteps.i_select_a_from_most_visited_countries()"
 });
 formatter.result({
-  "duration": 1042229179,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "location": "ReadCountryArticleSteps.i_select_an_article()"
+  "location": "ReadCountryArticleSteps.i_click_country_main_article()"
 });
 formatter.result({
-  "duration": 39448451,
-  "error_message": "org.openqa.selenium.InvalidSelectorException: Given css selector expression \"//*[@id\u003d\"main-lead-art\"]\" is invalid: InvalidSelectorError: \u0027//*[@id\u003d\"main-lead-art\"]\u0027 is not a valid selector: \"//*[@id\u003d\"main-lead-art\"]\"\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 25040, moz:profile: C:\\Users\\Lenovo\\AppData\\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 04ae9780-aad9-476f-8889-910036be3dba\n*** Element info: {Using\u003dcss selector, value\u003d//*[@id\u003d\"main-lead-art\"]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat api.apps.jeuneafique.pages.CountriesPages.clickCountryMainArticle(CountriesPages.java:29)\r\n\tat testSteps.jeuneAfriqueTestSteps.ReadCountryArticleSteps.i_select_an_article(ReadCountryArticleSteps.java:70)\r\n\tat ✽.Then I select an article(readCountryNews.feature:9)\r\n",
+  "status": "skipped"
+});
+formatter.match({
+  "location": "ReadCountryArticleSteps.i_go_back_to_country_page()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.after({
+  "duration": 87500,
+  "error_message": "java.lang.NullPointerException\r\n\tat testSteps.jeuneAfriqueTestSteps.JeuneAfriqueStartPageSteps.finish(JeuneAfriqueStartPageSteps.java:90)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
   "status": "failed"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
 });
 });

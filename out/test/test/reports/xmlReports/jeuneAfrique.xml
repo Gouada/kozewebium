@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="79.187574">
+<testcase classname="jeuneAfrique" name="JeuneAfrique startPage" time="34.027015">
+<system-out><![CDATA[Given I am on the startpage.................................................passed
+When I click Menu Item Politque.............................................passed
+Then I click Sport..........................................................passed
+Then I click Economie.......................................................passed
+Then I scroll down to bottom................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="jeuneafrique" name="readCountryNews" time="45.160559">
+<system-out><![CDATA[Given I start jeuneAfrique..................................................passed
+Then I clcick les pays......................................................passed
+Then I select a from most visited countries.................................passed
+Then I click country main article...........................................passed
+Then I go back to country page..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -17,5 +17,4 @@ import cucumber.api.junit.Cucumber;
 		"junit:" + XML_RESULT_FOLDER
 				+ "/jeuneAfrique.xml" }, features = JEUNEAFRIQUE_FEATURE, glue = JEUNEAFRIQUE_STEPS_DEFINITIONS, tags= {"@jeuneafrique"})
 public class jeuneAfriqueRunner {
-	
 }

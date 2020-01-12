@@ -52,7 +52,7 @@ public class TestDriver {
 	{
 		if(driver != null)
 		{
-			driver.close();
+			//driver.close();
 			driver.quit();
 		}
 	}
@@ -69,7 +69,7 @@ public class TestDriver {
 	
 	public static ChromeDriver startTestWithChromeDriver()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:/MyWorkspace/SeleniumChromeDriver/1/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/MyWorkspace/SeleniumChromeDriver/new/chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.setCapability(CapabilityType.TAKES_SCREENSHOT, true);
 		options.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);

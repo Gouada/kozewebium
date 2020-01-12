@@ -22,6 +22,7 @@ public class Utils {
 	private String filename; 
 	private WebDriver driver;
 	private Calendar calendar = Calendar.getInstance();
+	private Actions actions;
 	public Utils(WebDriver driver) {
 		super();
 		this.driver = driver;
@@ -29,32 +30,32 @@ public class Utils {
 	
 	public void scrollToElement(By locator)
 	{
-		Actions action;
+		//Actions action;
 		 if(driver != null)
 		 {
-			 action = new Actions(driver);
-			 action.moveToElement(driver.findElement(locator)).perform();
+			 actions = new Actions(driver);
+			 actions.moveToElement(driver.findElement(locator)).perform();
 			  //MyLogger.logger.info(driver.get);
 		 }
 	}
 	
 	public void scrollToBottom()
 	{
-		Actions action;
+		//Actions action;
 		 if(driver != null)
 		 {
 			 //MyLogger.logger.info("WindowHeight" + driver.manage().window().getSize().getHeight());
-			 action = new Actions(driver);
+			 actions = new Actions(driver);
 			 //action.moveByOffset(driver.manage().window().getSize().getWidth(), driver.manage().window().getSize().getHeight()).build().perform();
 			 //action.moveByOffset(50, 400).perform();
-			 action.keyDown(Keys.CONTROL).sendKeys(Keys.END).perform();
+			 actions.keyDown(Keys.CONTROL).sendKeys(Keys.END).perform();
 		 }
 		 else 	MyLogger.logger.info("Ups!!! driver was null");
 	}
 	
 	public void scrollToTop()
 	{
-		Actions actions;
+		//Actions actions;
 		if(driver != null)
 		{
 			actions = new Actions(driver);
@@ -64,23 +65,23 @@ public class Utils {
 	}
 	public void scrollRight()
 	{
-		Actions action;
+		//Actions action;
 		 if(driver != null)
 		 {
-			 action = new Actions(driver);
+			 actions = new Actions(driver);
 			 //action.moveByOffset(driver.manage().window().getSize().getWidth(), 0).perform();
-			 action.sendKeys(Keys.ARROW_RIGHT).perform();
+			 actions.sendKeys(Keys.ARROW_RIGHT).perform();
 		 }
 	}
 	
 	public void scrollLeft()
 	{
-		Actions action;
+		//Actions action;
 		 if(driver != null)
 		 {
-			 action = new Actions(driver);
+			 actions = new Actions(driver);
 			 //action.moveByOffset(driver.manage().window().getSize().getWidth(), 0).perform();
-			 action.sendKeys(Keys.ARROW_LEFT).perform();
+			 actions.sendKeys(Keys.ARROW_LEFT).perform();
 		 }
 	}
 	
@@ -105,5 +106,11 @@ public class Utils {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	
+	public void clickBackButton() throws IOException
+	{
+		actions = new Actions(driver);
+		actions.keyDown(Keys.ALT).sendKeys(Keys.ARROW_LEFT).keyUp(Keys.ALT).perform();
 	}
 }

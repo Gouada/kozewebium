@@ -1,0 +1,244 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11004761600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JeuneAfriqueStartPageSteps.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6850898700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommentArticle.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7162848600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ReadCountryArticleSteps.init()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "JeuneAfrique startPage",
+        "description": "",
+        "id": "jeuneafrique;jeuneafrique-startpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5384938900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the startpage",
+            "match": {
+              "location": "JeuneAfriqueStartPageSteps.i_am_on_the_startpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1580435300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Menu Item Politque",
+            "match": {
+              "location": "JeuneAfriqueStartPageSteps.i_click_menu_item_politique()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 992964400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Sport",
+            "match": {
+              "location": "JeuneAfriqueStartPageSteps.i_click_Sport()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 985376400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Economie",
+            "match": {
+              "location": "JeuneAfriqueStartPageSteps.i_click_economie()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64790900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I scroll down to bottom",
+            "match": {
+              "location": "JeuneAfriqueStartPageSteps.i_scroll_down_to_bottom()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@jeuneafrique"
+          }
+        ]
+      }
+    ],
+    "name": "jeuneAfrique",
+    "description": "",
+    "id": "jeuneafrique",
+    "keyword": "Feature",
+    "uri": "jeuneAfrique.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@jeuneafrique"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10820315400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "JeuneAfriqueStartPageSteps.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8486429400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommentArticle.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 16403998000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ReadCountryArticleSteps.init()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "readCountryNews",
+        "description": "",
+        "id": "jeuneafrique;readcountrynews",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5960058100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start jeuneAfrique",
+            "match": {
+              "location": "ReadCountryArticleSteps.i_start_jeuneAfrique()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263578600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I clcick les pays",
+            "match": {
+              "location": "ReadCountryArticleSteps.i_click_les_pays()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1178747100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select a from most visited countries",
+            "match": {
+              "location": "ReadCountryArticleSteps.i_select_a_from_most_visited_countries()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1916994200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click country main article",
+            "match": {
+              "location": "ReadCountryArticleSteps.i_click_country_main_article()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 130437800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I go back to country page",
+            "match": {
+              "location": "ReadCountryArticleSteps.i_go_back_to_country_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@jeuneafrique"
+          }
+        ]
+      }
+    ],
+    "name": "jeuneafrique",
+    "description": "",
+    "id": "jeuneafrique",
+    "keyword": "Feature",
+    "uri": "readCountryNews.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@jeuneafrique"
+      }
+    ]
+  }
+]
