@@ -4,8 +4,9 @@ import org.openqa.selenium.WebDriver;
 
 public abstract class WebBrowserDriverManager {
 	
-	protected WebDriver driver;
+	protected static WebDriver driver;
 	public abstract void createWebDriver();
+	
 	
 	public WebDriver getWebDriver()
 	{
@@ -14,12 +15,12 @@ public abstract class WebBrowserDriverManager {
 		return driver;
 	}
 	
-	/*public void quitWebDriver()
+	public void quitWebDriver()
 	{
 		if(driver != null)
 		{
 			driver.close();
 			driver.quit();
 		}
-	}*/
+	}
 }

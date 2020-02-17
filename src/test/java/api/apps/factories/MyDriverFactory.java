@@ -41,7 +41,7 @@ public class MyDriverFactory {
 			//driver = drivermanager.getWebDriver();
 		}
 		else 			
-			drivermanager = new ChromeDriverManager();
+			drivermanager = new FireFoxDriverManager();
 
 		return drivermanager;
 		}

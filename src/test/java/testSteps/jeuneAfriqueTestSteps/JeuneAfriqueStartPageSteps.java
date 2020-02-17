@@ -34,11 +34,12 @@ public class JeuneAfriqueStartPageSteps {
 	
 	private static Utils utils;
 	private static WebDriver driver;
+	
 	@Before
 	public void init()
 	{
 		//TestDriver.startTestWith(FIREFOX);
-		driver = MyDriverFactory.createDriver(CHROME).getWebDriver();
+		driver = MyDriverFactory.createDriver(FIREFOX).getWebDriver();
 		//utils = new Utils(TestDriver.driver);
 		utils = new Utils(driver);
 	}
@@ -49,14 +50,17 @@ public class JeuneAfriqueStartPageSteps {
 		//init();
 		//MyPageFactory.getPage("https://www.jeuneafrique.com/");
 		//startPage = new StartPage();
+		driver = MyDriverFactory.createDriver(FIREFOX).getWebDriver();
 		driver.get(Pages.Aceuil.getPageUrl());
-		StartPage.clickAgreeButton();
-		assertTrue(TestDriver.driver.getTitle().contains(Pages.Aceuil.getPageTitle()));
+		//StartPage.clickAgreeButton();
+		assertTrue(driver.getTitle().contains(Pages.Aceuil.getPageTitle()));
+		//StartPage.click_accept_coockies_btn();
 	    //throw new PendingException();
 	}
 	
 	@When("^I click Menu Item Politque$")
 	public void i_click_menu_item_politique () throws Throwable{
+		driver = MyDriverFactory.createDriver(FIREFOX).getWebDriver();
 		StartPage.clickMenuItem("Politique");
 		assertTrue(driver.getTitle().contains(Pages.Politique.getPageTitle()));
 	}
@@ -87,6 +91,6 @@ public class JeuneAfriqueStartPageSteps {
 	@After
 	public void finish()
 	{
-		 driver.quit();
+		MyDriverFactory.drivermanager.quitWebDriver();
 	}
 }

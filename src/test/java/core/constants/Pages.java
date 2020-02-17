@@ -2,7 +2,7 @@ package core.constants;
 
 public enum Pages 
 {
-	Aceuil 		("Aceuil", "https://www.jeuneafrique.com/"),
+	Aceuil 		("Jeune Afrique – Premier site", "https://www.jeuneafrique.com/"),
 	Politique 	("Politique", "https://www.jeuneafrique.com/rubriques/politique/"),
 	Sport 		("Sport", "https://www.jeuneafrique.com/rubriques/sport/"),
 	Economie 		("Économie", "https://www.jeuneafrique.com/rubriques/economie/"),

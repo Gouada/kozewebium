@@ -1,7 +1,7 @@
 @jeuneafrique
 Feature: jeuneAfrique
 
-@jeuneafrique
+@jeuneafriqueStart
 Scenario: JeuneAfrique startPage
 	Given I am on the startpage
     When I click Menu Item Politque

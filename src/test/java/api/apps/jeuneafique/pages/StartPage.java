@@ -20,7 +20,7 @@ public class StartPage extends Page{
 	private static WebDriver driver = MyDriverFactory.createDriver(FIREFOX).getWebDriver();
 	
 //	private static By MENU_ACEUIL = By.xpath("//a[contains(@data-label, 'Aceuil')])");
-	private static By MENU_POLITIQUE = By.xpath("//a[contains(@data-label, 'Politique')]");
+	private static By MENU_POLITIQUE = By.xpath("//a[contains(@data-label, 'Politique')]"); //*[@id="main-menu-nav"]/li[6]/a
 	private static By MENU_ECONOMIE = By.xpath("//a[contains(@data-label, 'Économie')]");
 	private static By MENU_SOCIETE = By.xpath("//a[contains(@data-label, 'Société')]");
 	private static By MENU_SPORT = By.xpath("//a[contains(@data-label, 'Sport')]");
@@ -31,6 +31,8 @@ public class StartPage extends Page{
 	
 	private static By MAINAGREE = By.id("mainAgree");
 	public static By ELEMENT_AT_BOTTOM = By.xpath("//*[@id=\"bottom\"]/div/div/section[5]/div[2]/div/a");
+	
+	public static By BTN_ACCEPT_COOKIES = By.xpath("//*[@id=\"scmp-btn-allow\"]"); 
 	/*public StartPage()
 	{
 		System.setProperty("webdriver.gecko.driver", "C:\\MyWorkspace\\SeleniumFirefoxDriver\\geckodriver.exe");
@@ -88,6 +90,10 @@ public class StartPage extends Page{
 		driver.switchTo().defaultContent();
 	}
 	
+	public static void click_accept_coockies_btn()
+	{
+		driver.findElement(BTN_ACCEPT_COOKIES).click();
+	}
 	public static void clickCountriesButon()
 	{
 		driver.findElement(COUNTRIES).click();

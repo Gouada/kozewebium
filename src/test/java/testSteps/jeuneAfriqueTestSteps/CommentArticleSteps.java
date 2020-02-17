@@ -20,7 +20,7 @@ private static WebDriver driver;
 	{
 		//TestDriver.startTestWith(FIREFOX);
 		//utils = new Utils(TestDriver.driver);
-		driver = MyDriverFactory.createDriver(Constants.FIREFOX).getWebDriver();
+		driver = MyDriverFactory.createDriver(Constants.CHROME).getWebDriver();
 		utils = new Utils(driver);
 	}
 	

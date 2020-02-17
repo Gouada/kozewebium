@@ -31,7 +31,7 @@ private static WebDriver driver;
 	{
 		//TestDriver.startTestWith(FIREFOX);
 		//utils = new Utils(TestDriver.driver);
-		driver = MyDriverFactory.createDriver(CHROME).getWebDriver();
+		driver = MyDriverFactory.createDriver(FIREFOX).getWebDriver();
 		utils = new Utils(driver);
 	}
 	
@@ -40,18 +40,13 @@ private static WebDriver driver;
 		//TestDriver.startTestWith(FIREFOX);
 		driver.navigate().to(Pages.Aceuil.getPageUrl());
 		
-		Set<String> windows = TestDriver.driver.getWindowHandles();
+		//Set<String> windows = TestDriver.driver.getWindowHandles();
 
-        for (String window : windows) {
+       /* for (String window : windows) {
         	driver.switchTo().window(window);
-//            System.out.println(":::::::::::::"+windows.size()+"::::::::::::::::::");
-//            System.out.println(String.format("..........................."
-//            		+ ".#switchToWindow() : title=%s ; url=%s",
-//            		TestDriver.driver.getTitle(),
-//            		TestDriver.driver.getCurrentUrl()));
-        } 
-		
+        } 	
 		StartPage.clickAgreeButton2();
+		*/
 		//assertTrue(TestDriver.driver.getTitle().contains(Pages.Aceuil.getPageTitle()));
 	    //throw new PendingException();
 		assertTrue(driver.getTitle().equalsIgnoreCase(Pages.Aceuil.getPageTitle()));
