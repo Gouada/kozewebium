@@ -1,53 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="19.548021">
-<testcase classname="jeuneAfrique" name="JeuneAfrique startPage" time="19.546473">
-<failure message="org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&amp;u=https%3A//www.jeuneafrique.com/&amp;c=UTF-8&amp;f=regular&amp;d=Die%20Verbindung%20mit%20dem%20Server%20www.jeuneafrique.com%20schlug%20fehl.&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200207195153, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 38344, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 5ced64be-eb80-4c6e-88e7-8e65390afb2f&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#13;&#10;&#9;at testSteps.jeuneAfriqueTestSteps.JeuneAfriqueStartPageSteps.i_am_on_the_startpage(JeuneAfriqueStartPageSteps.java:54)&#13;&#10;&#9;at ✽.Given I am on the startpage(jeuneAfrique.feature:6)&#13;&#10;"><![CDATA[Given I am on the startpage.................................................failed
-When I click Menu Item Politque.............................................skipped
-Then I click Sport..........................................................skipped
-Then I click Economie.......................................................skipped
-Then I scroll down to bottom................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.jeuneafrique.com/&c=UTF-8&f=regular&d=Die%20Verbindung%20mit%20dem%20Server%20www.jeuneafrique.com%20schlug%20fehl.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200207195153, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 38344, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5ced64be-eb80-4c6e-88e7-8e65390afb2f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at testSteps.jeuneAfriqueTestSteps.JeuneAfriqueStartPageSteps.i_am_on_the_startpage(JeuneAfriqueStartPageSteps.java:54)
-	at ✽.Given I am on the startpage(jeuneAfrique.feature:6)
-]]></failure>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="24.704589">
+<testcase classname="jeuneAfrique" name="JeuneAfrique startPage" time="18.245467">
+<system-out><![CDATA[Given I am on the startpage.................................................passed
+When I click Menu Item Politque.............................................passed
+Then I click Sport..........................................................passed
+Then I click Economie.......................................................passed
+Then I scroll down to bottom................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="jeuneafrique" name="readCountryNews" time="0.001548">
-<failure message="org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)&#13;&#10;&#9;at testSteps.jeuneAfriqueTestSteps.ReadCountryArticleSteps.i_start_jeuneAfrique(ReadCountryArticleSteps.java:41)&#13;&#10;&#9;at ✽.Given I start jeuneAfrique(readCountryNews.feature:6)&#13;&#10;"><![CDATA[Given I start jeuneAfrique..................................................failed
-Then I clcick les pays......................................................skipped
-Then I select a from most visited countries.................................skipped
-Then I click country main article...........................................skipped
-Then I go back to country page..............................................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
-	at testSteps.jeuneAfriqueTestSteps.ReadCountryArticleSteps.i_start_jeuneAfrique(ReadCountryArticleSteps.java:41)
-	at ✽.Given I start jeuneAfrique(readCountryNews.feature:6)
-]]></failure>
+<testcase classname="jeuneafrique" name="readCountryNews" time="6.459122">
+<system-out><![CDATA[Given I start jeuneAfrique..................................................passed
+Then I clcick les pays......................................................passed
+Then I select a from most visited countries.................................passed
+Then I click country main article...........................................passed
+Then I go back to country page..............................................passed
+]]></system-out>
 </testcase>
 </testsuite>

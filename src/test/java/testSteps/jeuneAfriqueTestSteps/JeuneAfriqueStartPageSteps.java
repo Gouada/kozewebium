@@ -40,8 +40,7 @@ public class JeuneAfriqueStartPageSteps {
 	{
 		//TestDriver.startTestWith(FIREFOX);
 		driver = MyDriverFactory.createDriver(FIREFOX).getWebDriver();
-		//utils = new Utils(TestDriver.driver);
-		utils = new Utils(driver);
+		//utils = new Utils(driver);
 	}
 	
 	
@@ -79,6 +78,7 @@ public class JeuneAfriqueStartPageSteps {
 	}
 	@Then("^I scroll down to bottom$")
 	public void i_scroll_down_to_bottom() throws Throwable{
+		utils = new Utils(driver);
 		utils.scrollToBottom();
 		//utils.scrollToElement(StartPage.ELEMENT_AT_BOTTOM);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -91,6 +91,7 @@ public class JeuneAfriqueStartPageSteps {
 	@After
 	public void finish()
 	{
-		MyDriverFactory.drivermanager.quitWebDriver();
+		//driver.close();
+		//MyDriverFactory.createDriver(FIREFOX).quitWebDriver();
 	}
 }

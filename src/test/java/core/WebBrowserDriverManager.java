@@ -19,8 +19,8 @@ public abstract class WebBrowserDriverManager {
 	{
 		if(driver != null)
 		{
+			//driver.quit();
 			driver.close();
-			driver.quit();
 		}
 	}
 }
