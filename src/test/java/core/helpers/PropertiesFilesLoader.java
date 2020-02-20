@@ -8,6 +8,7 @@ import java.util.Properties;
 import org.apache.log4j.Level;
 
 import core.MyLogger;
+import static core.Constants.PROPERTIES_FILE_FOLDER;
 
 public class PropertiesFilesLoader {
 	
@@ -16,7 +17,7 @@ public class PropertiesFilesLoader {
 	private static InputStream fileInput;
 	public static PropertiesFilesLoader singleInstance;
 	 
-	 public synchronized static PropertiesFilesLoader getInstance(String filename)
+	 public synchronized static PropertiesFilesLoader getInstance()
 	 {
 		 if(singleInstance == null)
 			 singleInstance = new PropertiesFilesLoader();
@@ -24,9 +25,12 @@ public class PropertiesFilesLoader {
 	 }
 	 
 		// this method load the properties-file
-		public synchronized Properties loadPropertiesFile() {
+		public synchronized Properties loadPropertiesFile(String filename) {
 			MyLogger.logger.setLevel(Level.DEBUG);
 			try { // return the properties-file as InputStream
+				if(!filename.equals(""))
+					 file_path = "/" + PROPERTIES_FILE_FOLDER + "/" + filename;
+				
 				fileInput = getClass().getResourceAsStream(file_path);
 				// fileInput =
 				// Class.forName("PropertiesFilesLoader").getResourceAsStream(file_path);
@@ -50,14 +54,14 @@ public class PropertiesFilesLoader {
 
 		// return a property by the key
 		public String getPropertyByKey(String propertyKey) {
-			Properties proP = loadPropertiesFile();
+			Properties proP = null; // = loadPropertiesFile();
 
 			MyLogger.logger.info("getting property with following key..." + propertyKey);
-			if (proP == null) {
+			if (properties == null) {
 				MyLogger.logger.info("properties is null............");
 			} else {
 				MyLogger.logger.info(" found corresponding property " + proP.getProperty(propertyKey));
 			}
-			return proP.getProperty(propertyKey);
+			return properties.getProperty(propertyKey);
 		}
 }

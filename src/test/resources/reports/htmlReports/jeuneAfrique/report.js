@@ -13,11 +13,11 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 7046140100,
+  "duration": 11622697801,
   "status": "passed"
 });
 formatter.before({
-  "duration": 124200,
+  "duration": 148999,
   "status": "passed"
 });
 formatter.scenario({
@@ -63,43 +63,43 @@ formatter.match({
   "location": "JeuneAfriqueStartPageSteps.i_am_on_the_startpage()"
 });
 formatter.result({
-  "duration": 4946417500,
+  "duration": 3699687599,
   "status": "passed"
 });
 formatter.match({
   "location": "JeuneAfriqueStartPageSteps.i_click_menu_item_politique()"
 });
 formatter.result({
-  "duration": 2294284600,
+  "duration": 1116968700,
   "status": "passed"
 });
 formatter.match({
   "location": "JeuneAfriqueStartPageSteps.i_click_Sport()"
 });
 formatter.result({
-  "duration": 1608652500,
+  "duration": 1967497100,
   "status": "passed"
 });
 formatter.match({
   "location": "JeuneAfriqueStartPageSteps.i_click_economie()"
 });
 formatter.result({
-  "duration": 2300300400,
+  "duration": 1870200600,
   "status": "passed"
 });
 formatter.match({
   "location": "JeuneAfriqueStartPageSteps.i_scroll_down_to_bottom()"
 });
 formatter.result({
-  "duration": 48611500,
+  "duration": 199488701,
   "status": "passed"
 });
 formatter.after({
-  "duration": 885600,
+  "duration": 685200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 50300,
+  "duration": 9100,
   "status": "passed"
 });
 formatter.uri("readCountryNews.feature");
@@ -117,11 +117,11 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 78300,
+  "duration": 78800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 47400,
+  "duration": 61800,
   "status": "passed"
 });
 formatter.scenario({
@@ -167,43 +167,43 @@ formatter.match({
   "location": "ReadCountryArticleSteps.i_start_jeuneAfrique()"
 });
 formatter.result({
-  "duration": 1660517700,
+  "duration": 1881115100,
   "status": "passed"
 });
 formatter.match({
   "location": "ReadCountryArticleSteps.i_click_les_pays()"
 });
 formatter.result({
-  "duration": 435393900,
+  "duration": 502539800,
   "status": "passed"
 });
 formatter.match({
   "location": "ReadCountryArticleSteps.i_select_a_from_most_visited_countries()"
 });
 formatter.result({
-  "duration": 1839957900,
+  "duration": 1073999700,
   "status": "passed"
 });
 formatter.match({
   "location": "ReadCountryArticleSteps.i_click_country_main_article()"
 });
 formatter.result({
-  "duration": 1395525700,
+  "duration": 1217919901,
   "status": "passed"
 });
 formatter.match({
   "location": "ReadCountryArticleSteps.i_go_back_to_country_page()"
 });
 formatter.result({
-  "duration": 1127547900,
+  "duration": 1106418799,
   "status": "passed"
 });
 formatter.after({
-  "duration": 19200,
+  "duration": 13400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 33700,
+  "duration": 16900,
   "status": "passed"
 });
 });
